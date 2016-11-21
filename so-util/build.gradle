@@ -1,0 +1,26 @@
+group 'com.pineone.icbms.so'
+version '1.0.0-SNAPSHOT'
+
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'idea'
+
+sourceCompatibility = 1.5
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+compileJava.options.encoding = "UTF-8"
+
+jar {
+    baseName ='so-util'
+//    version = '1.0.0-SNAPSHOT'
+}
+
+dependencies {
+    testCompile group: 'junit', name: 'junit', version: '4.11'
+    compile "com.withwiz:httpclientservice:0.1.1"
+}
+

@@ -1,0 +1,23 @@
+rootProject.name = 'so-new'
+include 'so-util'
+include 'so-domain'
+include 'so-device'
+include 'so-virtualobject'
+include 'so-compositevirtualobject'
+include 'so-service'
+include 'so-servicemodel'
+
+
+//includeFlat 'so-util'
+//includeFlat 'so-domain'
+//includeFlat 'so-device'
+//includeFlat 'so-virtualobject'
+//includeFlat 'so-compositevirtualobject'
+//includeFlat 'so-service'
+//includeFlat 'so-servicemodel'
+include 'so-contextinformation'
+include 'so-contextmodel'
+include 'so-profile'
+include 'so-scheduler'
+include 'so-server'
+

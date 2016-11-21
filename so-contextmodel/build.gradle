@@ -1,0 +1,22 @@
+group 'com.pineone.icbms.so'
+
+apply plugin: 'java'
+apply plugin: 'maven'
+apply plugin: 'idea'
+
+repositories {
+    mavenCentral()
+    jcenter()
+}
+
+compileJava.options.encoding = "UTF-8"
+
+jar {
+    baseName ='so-contextmodel'
+//    version = '1.0.0-SNAPSHOT'
+}
+
+dependencies {
+    compile project(":so-util")
+    compile project(":so-contextinformation")
+}
