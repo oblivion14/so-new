@@ -12,11 +12,12 @@ repositories {
 compileJava.options.encoding = "UTF-8"
 
 war {
-    baseName ='so'
+    baseName ='so-new'
 //    version = '1.0.0-SNAPSHOT'
 }
 
 dependencies {
     compile project(":so-util")
     compile project(":so-profile")
+    compile project(":so-scheduler")
 }
